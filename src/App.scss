@@ -1,0 +1,50 @@
+//Exemple de variable
+$main-color : red;
+
+h1.MuiTypography-root.MuiTypography-h1.css-f2ts4m-MuiTypography-root {
+    color:$main-color;
+    font-size: 20px;
+}
+
+//Exemple de nested
+$bgcolor : #c1c1c1;
+
+p.MuiTypography-root.MuiTypography-body1.css-11estxj-MuiTypography-root {
+    background-color: $bgcolor;
+    h3{
+        color: green;
+    }
+}
+
+//Exemple d'interpolation
+@mixin text-style($name, $bold-or-normal, $size, $color) {
+    #{$name} {
+        font-size: #{$size}px;
+        font-weight: #{$bold-or-normal};
+        color: #{$color};
+    }
+}
+
+@include text-style("h5.MuiTypography-root.MuiTypography-h5.css-xmyuse-MuiTypography-root", bold, 25, blue);
+
+//Exemple de fonction
+@function invert($color, $amount: 100%) {
+    $inverse: change-color($color, $hue: hue($color) + 180);
+    @return mix($inverse, $color, $amount);
+}
+  
+$primary-color:green;
+#function {
+    background-color: invert($primary-color, 80%);
+}
+
+//Exemple de Mixin 
+@mixin default-text-style {  
+    padding: 20px;  
+    font-size: 16px;  
+    font-weight:bold;
+}
+  
+#mixin {
+    @include default-text-style
+}
