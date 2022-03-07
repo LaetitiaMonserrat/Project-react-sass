@@ -1,3 +1,48 @@
+# Mettre en place un projet REACT avec SASS
+## Contexte
+Projet réalisé dans le cadre d'un du module d'Expertise de mon Mastère
+
+## Guide
+Une fois le projet cloné avec la commande 
+```
+git clone https://github.com/LaetitiaMonserrat/Project-react-sass.git
+```
+Lancez la commande suivante depuis le dossier du projet 
+```
+npm i
+```
+Puis allez sur http://localhost:3000/presentation 
+
+## Pourquoi avoir choisi React ?
+Tout simplement pour sa popularité et son nombre d'apparition dans les postes de développeur à pourvoir
+
+## Pourquoi avoir choisi SASS ?
+Tout simplement pour mon intérêt pour le scss. J'ai choisi SASS plutôt que LESS car il est plus utilisé et il est possible de faire plus de choses comparé à LESS.
+
+### Avantages
+- L'utilisation de variables
+- Le nesting, on peut utiliser des styles imbriqués, ce qui signifie grandement l'écriture et la compréhension du code
+- L'organisation de ses styles en plusieurs fichiers 
+- Les mixins, ce sont des fonctions de style réutilisables dans nos fichiers 
+- Les fonctions, on peut par exemple retourner la couleur complémentaire d'une couleur donnée
+- Les opérateurs +,-,*,/ et %
+### Inconvénients
+- Compliqué à comprendre
+- Compliqué à implémenter dans un projet comparé à du CSS ou du LESS
+
+## Difficultés rencontrées
+- Difficultés pour choisir mon sujet, au départ j'allais partir sur une IA qui apprendrait à gagner au jeu du morpion
+- Difficultés à installer node qui ne s'était pas installer globalement sur mon PC
+- Difficultés à reprendre le template choisi avec les liens qui ne fonctionnaient pas
+- Difficultés à implémenter et tester SASS sur le template
+
+## Tutoriel pour expliquer toutes mes étapes pour faire ce projet
+J'ai fais une doc pour expliquer toutes les étapes que j'ai faites pour ce projet n'hésitez pas à m'envoyer un mail.
+
+# Conclusion
+Malgré les nombreuses difficultés rencontrées pour initialiser le projet, une fois le setup du projet fini, il est agréable de travailler avec ces technologies. J’aimerai beaucoup les utiliser lors de ma future vie professionnelle.
+
+Pour ce projet j'ai utilisé le template Matérial Kit 2 React dont vous pouvez trouvez toutes les informations ci-après :
 # [Material Kit 2 React](http://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-kit-react&text=Check%20Material%20kit%20React%20made%20by%20@CreativeTim%20#webdesign%20#kit%20#materialdesign%20#react%20https://www.creative-tim.com/product/material-kit-react)
 
 ![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aissue+is%3Aclosed)
